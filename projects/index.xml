@@ -89,9 +89,10 @@ So my basic requirements were very simple -&lt;/p&gt;
       <guid>https://jitenagarwal19.github.io/projects/persist-data/</guid>
       <description>
 
-&lt;p&gt;I wanted to create a simple expense management application for myself in react-native(link to the app). For this app I needed a functionality where I could use localstorage and store the entries in the key/value form.
-Then I came across &lt;a href=&#34;https://facebook.github.io/react-native/docs/asyncstorage.html&#34;&gt;this&lt;/a&gt; feature in react-native and build this simple app. Which includes two fields key and value and list to show the stored values.
-&lt;img src=&#34;http://i.giphy.com/1337Pa1QJ1CIve.gif&#34; alt=&#34;Persist Data&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;I wanted to create a simple expense management application for myself in react-native(  &lt;a href=&#34;http://www.jitenagarwal.com/projects/react-native-money-management/&#34;&gt;&lt;strong&gt;Expense Management App&lt;/strong&gt;&lt;/a&gt; ). For this app I needed a functionality where I could use localstorage and store the entries in the key/value form.
+Then I came across &lt;a href=&#34;https://facebook.github.io/react-native/docs/asyncstorage.html&#34;&gt;this&lt;/a&gt; feature in react-native and build this simple app. Which includes two fields key and value and list to show the stored values.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/1337Pa1QJ1CIve.gif&#34; alt=&#34;Persist Data&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;here-https-github-com-jitenagarwal19-persistdata-is-the-github-link&#34;&gt;&lt;a href=&#34;https://github.com/jitenagarwal19/PersistData&#34;&gt;Here&lt;/a&gt; is the github link&lt;/h3&gt;
 
