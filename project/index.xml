@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jiten Agarwal</title>
-    <link>https://jitenagarwal19.github.io/index.xml</link>
-    <description>Recent content on Jiten Agarwal</description>
+    <title>Project-rsses on Jiten Agarwal</title>
+    <link>https://jitenagarwal19.github.io/project/index.xml</link>
+    <description>Recent content in Project-rsses on Jiten Agarwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 30 Nov 2016 09:30:34 +0530</lastBuildDate>
-    <atom:link href="https://jitenagarwal19.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jitenagarwal19.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>react native money management</title>
@@ -20,19 +20,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. At incidunt labore obc
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia totam consequatur nulla aspernatur sint, voluptatum dignissimos repellat reprehenderit. Harum esse odit nostrum possimus placeat consequatur architecto iste quaerat earum, aliquam!
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex illo voluptatibus porro dolorem velit, molestiae sit blanditiis odio facilis! Harum libero laboriosam, officiis nam ut quia atque iusto, quae nesciunt?
 &lt;img src=&#34;https://jitenagarwal19.github.io/img/money/money1.png&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>react native money management</title>
-      <link>https://jitenagarwal19.github.io/projects/react-native-money-management/</link>
-      <pubDate>Wed, 30 Nov 2016 09:30:34 +0530</pubDate>
-      
-      <guid>https://jitenagarwal19.github.io/projects/react-native-money-management/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati cum facere quasi. Ipsum, ullam, laborum. Recusandae sequi eveniet laborum libero impedit! Perspiciatis eligendi consequatur pariatur eius labore et quisquam temporibus?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. At incidunt labore obcaecati voluptatem provident quos deserunt excepturi commodi nesciunt eos, voluptatum, nobis doloremque consequatur nulla qui est sint esse hic!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia totam consequatur nulla aspernatur sint, voluptatum dignissimos repellat reprehenderit. Harum esse odit nostrum possimus placeat consequatur architecto iste quaerat earum, aliquam!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex illo voluptatibus porro dolorem velit, molestiae sit blanditiis odio facilis! Harum libero laboriosam, officiis nam ut quia atque iusto, quae nesciunt?&lt;/p&gt;
 </description>
     </item>
     
