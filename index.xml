@@ -11,28 +11,73 @@
     
     <item>
       <title>react native money management</title>
-      <link>https://jitenagarwal19.github.io/project/react-native-money-management/</link>
-      <pubDate>Wed, 30 Nov 2016 09:30:34 +0530</pubDate>
-      
-      <guid>https://jitenagarwal19.github.io/project/react-native-money-management/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati cum facere quasi. Ipsum, ullam, laborum. Recusandae sequi eveniet laborum libero impedit! Perspiciatis eligendi consequatur pariatur eius labore et quisquam temporibus?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. At incidunt labore obcaecati voluptatem provident quos deserunt excepturi commodi nesciunt eos, voluptatum, nobis doloremque consequatur nulla qui est sint esse hic!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia totam consequatur nulla aspernatur sint, voluptatum dignissimos repellat reprehenderit. Harum esse odit nostrum possimus placeat consequatur architecto iste quaerat earum, aliquam!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex illo voluptatibus porro dolorem velit, molestiae sit blanditiis odio facilis! Harum libero laboriosam, officiis nam ut quia atque iusto, quae nesciunt?
-&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/money1.png&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>react native money management</title>
       <link>https://jitenagarwal19.github.io/projects/react-native-money-management/</link>
       <pubDate>Wed, 30 Nov 2016 09:30:34 +0530</pubDate>
       
       <guid>https://jitenagarwal19.github.io/projects/react-native-money-management/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati cum facere quasi. Ipsum, ullam, laborum. Recusandae sequi eveniet laborum libero impedit! Perspiciatis eligendi consequatur pariatur eius labore et quisquam temporibus?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. At incidunt labore obcaecati voluptatem provident quos deserunt excepturi commodi nesciunt eos, voluptatum, nobis doloremque consequatur nulla qui est sint esse hic!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia totam consequatur nulla aspernatur sint, voluptatum dignissimos repellat reprehenderit. Harum esse odit nostrum possimus placeat consequatur architecto iste quaerat earum, aliquam!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex illo voluptatibus porro dolorem velit, molestiae sit blanditiis odio facilis! Harum libero laboriosam, officiis nam ut quia atque iusto, quae nesciunt?&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;framework-react-native&#34;&gt;&lt;strong&gt;Framework React-Native&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I created this app when I started learning Javascript and explored different frameworks in Javascript, then I bumped into react-native and was really amazed
+by facebook&amp;rsquo;s approach of creating HYBRID Mobile App. React-Native is build around the philosophy that &lt;strong&gt;learn once and write everywhere&lt;/strong&gt; over &lt;strong&gt;write once and run everywhere&lt;/strong&gt;(philosophy of phonegap).&lt;/p&gt;
+
+&lt;p&gt;You might have to write more code uncommon code for Android and iOS in React-Native but you will be writing in same language(i.e. JS) and everything will be rendered natively when you will the app.
+I was at that time working on an Android Application and thought of writing a simple app on this platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Some useful resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can also get started on react-native by following &lt;a href=&#34;https://facebook.github.io/react-native/docs/getting-started.html&#34;&gt;this&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Amazing list of react-native plugins &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;For layouts react-native heavily uses flexbox, handy reference &lt;a href=&#34;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;app-money-management&#34;&gt;&lt;strong&gt;App&lt;/strong&gt; Money Management&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/jitenagarwal19/money_new1&#34;&gt;&lt;strong&gt;Github Link&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;So the reasons why I built this app are&lt;/strong&gt; -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I wanted to learn react-native&lt;/li&gt;
+&lt;li&gt;I wanted to build a simple app to track my expenses.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I felt the need to create my own expense management app because all the expense management apps out there are complex and do many things, which i didnt want.
+So I figured out building a very simple app that will do the job.
+So my basic requirements were very simple -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Should have some fields to enter my expenses - (Name of expense, expense, and some description)&lt;/li&gt;
+&lt;li&gt;Should have categories to store my expenses(Food, Travel, Shopping, Home and Other)&lt;/li&gt;
+&lt;li&gt;Way to view the expenses on the basis of categories and time(monthly or yearly)&lt;/li&gt;
+&lt;li&gt;Store the expenses locally.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Further Improvements that I will implement in the future&lt;/strong&gt; -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Adding OCR to scan bill images directly in the app.&lt;/li&gt;
+&lt;li&gt;Storing data in the cloud (like firebase)&lt;/li&gt;
+&lt;li&gt;Implementing User login and rollout public version of the app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;so-i-came-up-the-following-ui-which-i-find-very-useful-and-easy-to-use&#34;&gt;So I came up the following UI which I find very useful and easy to use -&lt;/h3&gt;
+
+&lt;p&gt;I am using &lt;a href=&#34;https://material.google.com/style/color.html#&#34;&gt;Google&amp;rsquo;s Material Design Color Palette&lt;/a&gt;, in case you are curious how I came up with these colors
+&lt;strong&gt;Home View with Transactions View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/home1.png&#34; alt=&#34;Home View 1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Home View with Category View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/home2.png&#34; alt=&#34;Home View 2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Yearly View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/yearly.png&#34; alt=&#34;Yearly View&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;thanks-for-reading-please-feel-free-to-fork-this-project-or-to-provide-any-feedbacks&#34;&gt;Thanks for reading please feel free to fork this project or to provide any feedbacks.&lt;/h3&gt;
 </description>
     </item>
     
