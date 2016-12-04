@@ -7,7 +7,7 @@
     <meta name="author" content="map[]" />
     <meta name="description" content="Programmer by brain. Traveller by heart.">
     <link rel="shortcut icon" type="image/x-icon" href="https://jitenagarwal19.github.io/img/favicon.ico">
-    <title>Rect Native App - Weather</title>
+    <title>Terminal</title>
     <meta name="generator" content="Hugo 0.17" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://jitenagarwal19.github.io/css/main.css" />
@@ -61,19 +61,19 @@ ga('send', 'pageview');
       <div class="container">
         <div class="blog-post">
           <h3>
-            <strong><a href="https://jitenagarwal19.github.io/projects/weather-app/">Rect Native App - Weather</a></strong>
+            <strong><a href="https://jitenagarwal19.github.io/blogs/termial/">Terminal</a></strong>
           </h3>
         </div>
         <div class="blog-title">
           <h4>
-          April 3, 2016
+          December 4, 2016
             &nbsp;&nbsp;
             
-            <span class="label label-success">react-native</span>
+            <span class="label label-success">geek</span>
             
-            <span class="label label-success">mobile-application</span>
+            <span class="label label-success">terminal</span>
             
-            <span class="label label-success">hobby</span>
+            <span class="label label-success">shortcuts</span>
             
           </h4>
         </div>
@@ -82,55 +82,70 @@ ga('send', 'pageview');
             <div class="blogpost">
               
 
-<p>This is very basic app that I implemented when I was learning react-native.</p>
+<p><strong>Disclaimer-This post is not for windows user</strong></p>
 
-<p><img src="http://i.giphy.com/Q93Z84MUc7NUA.gif" alt="GIF" /></p>
+<h1 id="unlocking-potential-of-terminal-one-command-at-a-time">Unlocking Potential of Terminal One Command at a Time.</h1>
 
-<p>You can move the pin anywhere in the map to get the weather data of that region. Coordinates of the pin will used to fetch the weather data using this <a href="https://openweathermap.org/api"><strong>open weahter api</strong></a>.
-Things I learn while implementing this project -</p>
+<p>I am not a pro user of terminal, but recently I started working on technologies which forced me to use <strong>CLI(Command Line Interface)</strong>
+for tasks like building source, running server, deploying the code etc.
+Generally when you use GUI while you figure out a workflow which is most optimized for you this might include
+knowing all the keyboard shortcuts, optimizing the Editor&rsquo;s layout according to you, creating shortcuts on your Desktop and many more which I cannot think of right now.
+But when you are working on terminal your choices are limited by how you use commands provided and remembering them is a daunting task.
+As a programmer I feel the power of making my computer work the way I want, so I had to figure out a way to make Terminal work for me to make my workflow optimized.</p>
 
-<ol>
-<li>Map React-Native bridge(Only available for iOS at that time)</li>
-<li>Promises in Javascript</li>
-<li>Improved understanding of states in React Native</li>
-<li>Creating Custom Component in React-Native</li>
-</ol>
+<h2 id="aliasing">Aliasing</h2>
 
-<h3 id="here-https-github-com-jitenagarwal19-weather-app-is-the-github-link"><a href="https://github.com/jitenagarwal19/Weather-app">Here</a> is the github link</h3>
+<p>Word <strong>Alias</strong> has many meanings if you will google it but the one that suits here is <em>an alternate name for someone or something</em>.
+In terminal also we can pretty much alias anything we want, meaning we can rename any complicated command in our own way.</p>
 
-<h3 id="here-https-www-youtube-com-watch-v-scvs7a2ymkk-is-the-short-youtube-video-demoing-the-app"><a href="https://www.youtube.com/watch?v=scVS7A2Ymkk">Here</a> is the short youtube video demoing the app.</h3>
+<p><strong>How this is helpful?-You may ask</strong>
+Let me show you how  -</p>
 
-<h3 id="thanks-for-reading-please-feel-free-to-fork-this-project-or-to-provide-any-feedbacks">Thanks for reading please feel free to fork this project or to provide any feedbacks.</h3>
+<p>Let&rsquo;s say everytime I want to work on my personal website I have to write following commands in the terminal -</p>
+
+<ul>
+<li><code>$cd ~/Documents/myProjects/myWebsite</code> to change my working directory</li>
+<li><code>$code .</code> - To open <strong>VS Code</strong> (Editor)</li>
+<li><code>$hugo serve</code> - To start my local server</li>
+</ul>
+
+<p><strong>After Aliasing</strong>
+I just write <code>$mySite_run</code>. This single commands executes all three commands.</p>
+
+<p><strong>Enough jibber-jabber show me how to do it</strong>
+Look for ~/.bash_profile, ~/.bash_login or  ~/.profile which are files which are executed whenever you open the terminal, we will add our alias command
+here so that we can use them whenever terminal starts.
+If you weren&rsquo;t able to find any of the aboove mentioned files type <code>touch ~/.bash_profile</code> to create new file.
+Once the file is created you can open it any editor of your choice and start editing it.
+For the example that I gave above alias command will look like this</p>
+
+<p><code>alias mySite_run='cd ~/Documents/mySite/; code .;hugo server'</code></p>
+
+<p><code>;</code> in command helps to execute more than one commands in one go.</p>
+
+<p>Other alias that I use are following -
+- <code>alias poweroff='sudo /sbin/shutdown -h now'</code> - for force mac shutdown
+- <code>alias mysql='/usr/local/mysql-5.5.25-osx10.6-x86_64/bin/mysql -u root'</code> - to start mysql installation</p>
+
+<p>You can add as many aliases you want and optimize your daily workflow.</p>
+
+<p><strong>One quick pro tip</strong></p>
+
+<p>If you are like me and keep forgetting stuff I like to print my alias whenever I open my terminal using <code>echo</code>
+so lets I write</p>
+
+<p><code>echo -e 'Use\nmySite_run-to edit website\namazon_project-to edit amazon_project'</code></p>
+
+<p>which will give me output like this whenever I open the terminal which helps me keep track of my aliases
+<img src="/img/terminal/terminal_screenshot.png" alt="Terminal Screenshot" /></p>
+
+<p><strong>Go Ahead Geek Out</strong></p>
+
+<p><strong>Let me know if you have more cool terminal tricks</strong></p>
 
               <hr>
               <div class="related-posts">
                 <h5>Related Posts</h5>
-                
-                  <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                      <h6 style="text-align: right">
-                        May 30, 2016
-                      </h6>
-                    </div>
-                    <div class="col-sm-8 col-md-8 col-lg-8">
-                      <h6 style="text-align: left">
-                        <strong><a href="/projects/react-native-money-management/">React Native App To Manage Expense</a></strong>
-                      </h6>
-                    </div>
-                  </div>
-                
-                  <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                      <h6 style="text-align: right">
-                        April 17, 2016
-                      </h6>
-                    </div>
-                    <div class="col-sm-8 col-md-8 col-lg-8">
-                      <h6 style="text-align: left">
-                        <strong><a href="/projects/persist-data/">Persist Data</a></strong>
-                      </h6>
-                    </div>
-                  </div>
                 
               </div>
             </div>
