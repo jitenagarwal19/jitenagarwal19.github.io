@@ -21,7 +21,7 @@
 &lt;p&gt;I created this app when I started learning Javascript and explored different frameworks in Javascript, then I bumped into react-native and was really amazed
 by facebook&amp;rsquo;s approach of creating HYBRID Mobile App. React-Native is build around the philosophy that &lt;strong&gt;learn once and write everywhere&lt;/strong&gt; over &lt;strong&gt;write once and run everywhere&lt;/strong&gt;(philosophy of phonegap).&lt;/p&gt;
 
-&lt;p&gt;You might have to write more code uncommon code for Android and iOS in React-Native but you will be writing in same language(i.e. JS) and everything will be rendered natively when you will the app.
+&lt;p&gt;You might have to write more uncommon code for Android and iOS in React-Native but you will be writing in same language(i.e. JS) and everything will be rendered natively when you will run the app.
 I was at that time working on an Android Application and thought of writing a simple app on this platform.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Some useful resources&lt;/strong&gt;&lt;/p&gt;
