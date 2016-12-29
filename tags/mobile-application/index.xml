@@ -9,6 +9,85 @@
     <atom:link href="https://jitenagarwal19.github.io/tags/mobile-application/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Million Words Social Network built using Ionic Framework</title>
+      <link>https://jitenagarwal19.github.io/projects/ionic-million-words/</link>
+      <pubDate>Wed, 03 Aug 2016 12:53:25 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/ionic-million-words/</guid>
+      <description>
+
+&lt;p&gt;I was looking forward to learn more javascript frameworks after getting a glimpse of React-Native and basic understanding of javascript
+this time my focus was to learn a framwork that will help me in learning web-development too, So I came across AngularJs. After learning and understanding basics of AngularJs I was thinking of a cool project that I can do to make my understanding more robust.
+I thought of creating a simple &lt;strong&gt;Social Network&lt;/strong&gt; type application which I could implement in AngularJs.
+I decided to go mobile again and was looking for a framework which was using AngularJs at its core to build a Hybrid Mobile Appilication. After searching a bit I came across Ionic Framework.&lt;/p&gt;
+
+&lt;h3 id=&#34;ionic-framework&#34;&gt;Ionic Framework&lt;/h3&gt;
+
+&lt;p&gt;Ionic is the open source mobile sdk that will allow you to build Progressive Web and Native Apps easily.
+Features Of Ionic Framework -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Integeration with &lt;strong&gt;cordova&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Uses &lt;strong&gt;AngularJs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Provides extensive set of components like list, buttons, label, header, footer, tab-navigation etc.&lt;/li&gt;
+&lt;li&gt;Good Command Line Interface for debugging and building application(I used iOS and android)&lt;/li&gt;
+&lt;li&gt;Supports SaSS and Less for themeing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;quick-comparison-with-react-native-and-ionic&#34;&gt;Quick Comparison with React-Native and Ionic&lt;/h2&gt;
+
+&lt;h3 id=&#34;react-native&#34;&gt;React-Native&lt;/h3&gt;
+
+&lt;h2 id=&#34;the-app-million-words&#34;&gt;The App - Million Words.&lt;/h2&gt;
+
+&lt;p&gt;I like the concept of &lt;strong&gt;Sex of Ideas&lt;/strong&gt; &lt;a href=&#34;http://www.ted.com/talks/matt_ridley_when_ideas_have_sex&#34;&gt;here&amp;rsquo;s the ted talk &lt;/a&gt;where in you take mate two ideas and derive a new idea out of it.
+So here the &lt;strong&gt;Million Words&lt;/strong&gt; app was the child of &lt;strong&gt;Quora&lt;/strong&gt;(where you ask questions) and &lt;strong&gt;Instagram&lt;/strong&gt;(where you post pictures with some description).
+Yes, you guessed it right in Million Words you can ask questions that can be only answered using pictures and short description.
+And the name million words because &lt;strong&gt;A picture is worth million words&lt;/strong&gt;
+Following were the features I implemented in the first version of Million words.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Multi User&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;login&lt;/li&gt;
+&lt;li&gt;signup&lt;/li&gt;
+&lt;li&gt;User can add profile pictures and update their info(name, email, short description)&lt;/li&gt;
+&lt;li&gt;Other users can view profiles(Info, question, answers) of the users.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ask Question&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A user can ask question.&lt;/li&gt;
+&lt;li&gt;Upvote and downvote a question.&lt;/li&gt;
+&lt;li&gt;Separate Screen for unanswered questions.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Answer to a Question&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User can answer the question by uploading a picture(from gallery or camera) along with short description.&lt;/li&gt;
+&lt;li&gt;User can comment on any answer&lt;/li&gt;
+&lt;li&gt;User can like the answer.&lt;/li&gt;
+&lt;li&gt;User can view other user&amp;rsquo;s answer&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;libraries-and-technologies-used&#34;&gt;Libraries and Technologies Used -&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Ionic Framework v1&lt;/strong&gt; - To build the app.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cordova Library&lt;/strong&gt; - Bridge between the native and Web comes with basic native functionality like logging, toast etc. I added Dialog and Camera plugin too.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grunt&lt;/strong&gt; - To build and run tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NPM&lt;/strong&gt; - To add and update ionic and cordova plugins.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bower&lt;/strong&gt; - To add libraries for the app like moments, firebase etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firebase&lt;/strong&gt; - Google&amp;rsquo;s Awesome Realtime database which was backend of my application. I used Authentication and Database of the Firebase more about firebase here &amp;ndash; &amp;ndash;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt; - I learned git a lot in this project becuase I made myself use branching for a feature. So it was fun.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geny Motion&lt;/strong&gt; - Best Android Emulator I came across. I am mentioning this because it was a big relief for me when I came across Geny Motion, it&amp;rsquo;s fast and simple to use.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>React Native App To Manage Expense</title>
       <link>https://jitenagarwal19.github.io/projects/react-native-money-management/</link>
       <pubDate>Mon, 30 May 2016 09:30:34 +0530</pubDate>
