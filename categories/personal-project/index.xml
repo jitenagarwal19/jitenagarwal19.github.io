@@ -23,8 +23,9 @@ I decided to go mobile again and was looking for a framework which was using Ang
 
 &lt;h3 id=&#34;ionic-framework&#34;&gt;Ionic Framework&lt;/h3&gt;
 
-&lt;p&gt;Ionic is the open source mobile sdk that will allow you to build Progressive Web and Native Apps easily.
-Features Of Ionic Framework -&lt;/p&gt;
+&lt;p&gt;Ionic is the open source mobile sdk that will allow you to build Progressive Web and Native Apps easily.&lt;/p&gt;
+
+&lt;p&gt;Features Of Ionic Framework -&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Integeration with &lt;strong&gt;cordova&lt;/strong&gt;.&lt;/li&gt;
@@ -33,10 +34,6 @@ Features Of Ionic Framework -&lt;/p&gt;
 &lt;li&gt;Good Command Line Interface for debugging and building application(I used iOS and android)&lt;/li&gt;
 &lt;li&gt;Supports SaSS and Less for themeing&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;h2 id=&#34;quick-comparison-with-react-native-and-ionic&#34;&gt;Quick Comparison with React-Native and Ionic&lt;/h2&gt;
-
-&lt;h3 id=&#34;react-native&#34;&gt;React-Native&lt;/h3&gt;
 
 &lt;h2 id=&#34;the-app-million-words&#34;&gt;The App - Million Words.&lt;/h2&gt;
 
