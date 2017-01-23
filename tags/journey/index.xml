@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jiten Agarwal</title>
-    <link>https://jitenagarwal19.github.io/tags/geek/index.xml</link>
+    <link>https://jitenagarwal19.github.io/tags/journey/index.xml</link>
     <description>Recent content on Jiten Agarwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <atom:link href="https://jitenagarwal19.github.io/tags/geek/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jitenagarwal19.github.io/tags/journey/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My Journey with Javascript so far</title>
@@ -67,77 +67,6 @@ I wanted to get into web-development and &lt;a href=&#34;https://angularjs.org/&
 &lt;p&gt;Please feel free to ping me if you have any OpenSource project where I can be of any help.&lt;/p&gt;
 
 &lt;p&gt;Also, Checkout JS if you haven&amp;rsquo;t done yet.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>https://jitenagarwal19.github.io/blogs/termial/</link>
-      <pubDate>Sun, 04 Dec 2016 10:41:27 +0530</pubDate>
-      
-      <guid>https://jitenagarwal19.github.io/blogs/termial/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Disclaimer-This post is not for windows user&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;unlocking-potential-of-terminal-one-command-at-a-time&#34;&gt;Unlocking Potential of Terminal One Command at a Time.&lt;/h1&gt;
-
-&lt;p&gt;I am not a pro user of terminal, but recently I started working on technologies which forced me to use &lt;strong&gt;CLI(Command Line Interface)&lt;/strong&gt;
-for tasks like building source, running server, deploying the code etc.
-Generally when you use GUI while you figure out a workflow which is most optimized for you this might include
-knowing all the keyboard shortcuts, optimizing the Editor&amp;rsquo;s layout according to you, creating shortcuts on your Desktop and many more which I cannot think of right now.
-But when you are working on terminal your choices are limited by how you use commands provided and remembering them is a daunting task.
-As a programmer I feel the power of making my computer work the way I want, so I had to figure out a way to make Terminal work for me to make my workflow optimized.&lt;/p&gt;
-
-&lt;h2 id=&#34;aliasing&#34;&gt;Aliasing&lt;/h2&gt;
-
-&lt;p&gt;Word &lt;strong&gt;Alias&lt;/strong&gt; has many meanings if you will google it but the one that suits here is &lt;em&gt;an alternate name for someone or something&lt;/em&gt;.
-In terminal also we can pretty much alias anything we want, meaning we can rename any complicated command in our own way.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How this is helpful?-You may ask&lt;/strong&gt;
-Let me show you how  -&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s say everytime I want to work on my personal website I have to write following commands in the terminal -&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;$cd ~/Documents/myProjects/myWebsite&lt;/code&gt; to change my working directory&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$code .&lt;/code&gt; - To open &lt;strong&gt;VS Code&lt;/strong&gt; (Editor)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$hugo serve&lt;/code&gt; - To start my local server&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;After Aliasing&lt;/strong&gt;
-I just write &lt;code&gt;$mySite_run&lt;/code&gt;. This single commands executes all three commands.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Enough jibber-jabber show me how to do it&lt;/strong&gt;
-Look for ~/.bash_profile, ~/.bash_login or  ~/.profile which are files which are executed whenever you open the terminal, we will add our alias command
-here so that we can use them whenever terminal starts.
-If you weren&amp;rsquo;t able to find any of the aboove mentioned files type &lt;code&gt;touch ~/.bash_profile&lt;/code&gt; to create new file.
-Once the file is created you can open it any editor of your choice and start editing it.
-For the example that I gave above alias command will look like this&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;alias mySite_run=&#39;cd ~/Documents/mySite/; code .;hugo server&#39;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;;&lt;/code&gt; in command helps to execute more than one commands in one go.&lt;/p&gt;
-
-&lt;p&gt;Other alias that I use are following -
-- &lt;code&gt;alias poweroff=&#39;sudo /sbin/shutdown -h now&#39;&lt;/code&gt; - for force mac shutdown
-- &lt;code&gt;alias mysql=&#39;/usr/local/mysql-5.5.25-osx10.6-x86_64/bin/mysql -u root&#39;&lt;/code&gt; - to start mysql installation&lt;/p&gt;
-
-&lt;p&gt;You can add as many aliases you want and optimize your daily workflow.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;One quick pro tip&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you are like me and keep forgetting stuff I like to print my alias whenever I open my terminal using &lt;code&gt;echo&lt;/code&gt;
-so lets I write&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;echo -e &#39;Use\nmySite_run-to edit website\namazon_project-to edit amazon_project&#39;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;which will give me output like this whenever I open the terminal which helps me keep track of my aliases
-&lt;img src=&#34;https://jitenagarwal19.github.io/img/terminal/terminal_screenshot.png&#34; alt=&#34;Terminal Screenshot&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Go Ahead Geek Out&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Let me know if you have more cool terminal tricks&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     

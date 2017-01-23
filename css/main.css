@@ -163,6 +163,14 @@ body {
   line-height: 30px;
   font-size: 18px;
 }
+.blogpost img {
+    
+    margin-right: auto;
+    max-height: 300px;
+    margin-left: auto;
+    max-width: 300px;
+    display: block;
+}
 
 /* Footer 
 -------------------------------------------------- */

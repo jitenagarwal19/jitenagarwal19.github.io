@@ -9,6 +9,68 @@
     <atom:link href="https://jitenagarwal19.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>My Journey with Javascript so far</title>
+      <link>https://jitenagarwal19.github.io/blogs/my_journey_with_js/</link>
+      <pubDate>Sun, 22 Jan 2017 13:08:24 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/blogs/my_journey_with_js/</guid>
+      <description>
+
+&lt;h2 id=&#34;start&#34;&gt;Start&lt;/h2&gt;
+
+&lt;p&gt;I started learning javascript as a part of my &lt;strong&gt;2016 new year&amp;rsquo;s resolution&lt;/strong&gt; and that was one of the best decision I made in 2016. Since then I cannot stop thinking about Javascript. I am doing JS in office and home. I am overwhelmed by how a language built in 2 weeks took such an important place in the programming world.&lt;/p&gt;
+
+&lt;p&gt;Before embarking on learning something new(framework or language), I always like to read history about it, and know what was the reason it came into existence, what problem did it solved and read about people who built them.
+While exploring history and background of javascript I came across this video of &lt;a href=&#34;https://www.youtube.com/watch?v=v2ifWcnQs6M&#34;&gt;Douglas Crockford&lt;/a&gt;, in this video he talks about good and bad part of javascript. Something about his passion towards Javascript intrigued me and motivated me to learn about this language.&lt;/p&gt;
+
+&lt;p&gt;Since Javascript has a syntax similar to C++/Java, got comfortable with it easily. It is full of gotchas someone learning it will have a hard time with them, but eventually, you get used to them.
+I usually referred &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;MDN reference&lt;/a&gt; and &lt;a href=&#34;http://www.w3schools.com/js/&#34;&gt;W3C School&lt;/a&gt; for basic syntax and concepts in JS.&lt;/p&gt;
+
+&lt;p&gt;Finally, after getting good enough understanding of the core language I thought of making a cool app. The process of making a complete project with the language you are new to is a completely different experience. You learn new things like paradigms,
+new libraries folks are using and various better ways to do a task.&lt;/p&gt;
+
+&lt;p&gt;Since Web Developers love JS they have built several frameworks using JS and tried to make &lt;a href=&#34;https://www.reddit.com/r/atwoodslaw/&#34;&gt;Atwood&amp;rsquo;s Law true&lt;/a&gt;. At that time I was working as a Mobile Developer and was looking for a way to create Hybrid Apps.&lt;/p&gt;
+
+&lt;h3 id=&#34;react-native&#34;&gt;React Native&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;Facebook&amp;rsquo;s React-Native&lt;/a&gt; which lets you create a Mobile application using Javascript completely blew my mind. This framework requires you to write JS and JSX code and then it draws native components on the screen using the bridge in between. You can create your own modules,
+use the one that comes with the framework or you can use the module created by the &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;Awesome Opensource community&lt;/a&gt;. If you are interested in learning in React-Native or are already learning it do checkout this &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;list of awesome libraries&lt;/a&gt; and resources for it.
+I also got my hands dirty with React-Native and built few apps using it -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/weather-app/&#34;&gt;Weather Apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/persist-data/&#34;&gt;LocalStorage App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/react-native-money-management/&#34;&gt;Money Mangement App(which I am really proud of :))&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;ionic-and-angular&#34;&gt;Ionic and Angular&lt;/h3&gt;
+
+&lt;p&gt;If you are learning or working with JS, chances are that you must have come across the term &lt;strong&gt;MEAN stack&lt;/strong&gt; which expands to (&lt;strong&gt;M&lt;/strong&gt;ongoDb, &lt;strong&gt;E&lt;/strong&gt;xpressJS, &lt;strong&gt;A&lt;/strong&gt;ngularJS, &lt;strong&gt;N&lt;/strong&gt;odeJS) which is a full stack implemented in Javascript Express and Node for backend and Angular for front-end.
+I wanted to get into web-development and &lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJs&lt;/a&gt; felt the right choice to start with. Since it is backed by google, it is very easy to use. AngularJS has some learning curve but it is totally worth it, once you connect all the dots everything just fits in the place and things come naturally to you thereafter. Still, my heart was in Mobile Development(damn those tiny devices!) and my eyes laid on Ionic. &lt;a href=&#34;https://ionicframework.com/&#34;&gt;&lt;strong&gt;Ionic&lt;/strong&gt;&lt;/a&gt; is another good framework that lets you create Hybrid Applications using AngularJs.&lt;/p&gt;
+
+&lt;p&gt;My learning is incomplete unless I implement an Idea with that learning, Angular and Ionic were no exceptions. I created a Social Networking app backed by &lt;a href=&#34;https://firebase.google.com/&#34;&gt;&lt;strong&gt;Google&amp;rsquo;s Awesome Firebase database&lt;/strong&gt;&lt;/a&gt;. You can read about that app &lt;a href=&#34;http://www.jitenagarwal.com/projects/ionic-million-words/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-next&#34;&gt;What Next&lt;/h3&gt;
+
+&lt;p&gt;My knowledge and experience in JS feels like tip of the Iceberg when I look in the community what great things people are doing with JS. I want to invest myself for at least another year. My plans for this year are following -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Learn And Create Progressive Web Apps(involves Service Worker)&lt;/li&gt;
+&lt;li&gt;Contribute to the Opensource community&lt;/li&gt;
+&lt;li&gt;AngularJS 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;parting-words&#34;&gt;Parting Words&lt;/h3&gt;
+
+&lt;p&gt;Javascript, I think still has a great future ahead, I still don&amp;rsquo;t think there is any versatile language as Javascript to replace it, so it is here to stay for at least 2-3 years.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to ping me if you have any OpenSource project where I can be of any help.&lt;/p&gt;
+
+&lt;p&gt;Also, Checkout JS if you haven&amp;rsquo;t done yet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Million Words Social Network built using Ionic Framework</title>
       <link>https://jitenagarwal19.github.io/projects/ionic-million-words/</link>
       <pubDate>Wed, 03 Aug 2016 12:53:25 +0530</pubDate>
