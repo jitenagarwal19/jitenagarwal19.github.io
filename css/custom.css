@@ -1,0 +1,25 @@
+.avatar {
+    width: 200px;
+    max-width: 50%;
+
+    margin: auto;
+    padding-top: 0;
+
+}
+
+.avatar>img {
+    max-width: 100%;
+}
+
+.figure_blog {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure_blog>img {
+    max-width: 100%;
+    width: 400px;
+    height: 100%
+}

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiten Agarwal</title>
+    <link>https://jitenagarwal19.github.io/tags/hobby/index.xml</link>
+    <description>Recent content on Jiten Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="https://jitenagarwal19.github.io/tags/hobby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Million Words Social Network built using Ionic Framework</title>
+      <link>https://jitenagarwal19.github.io/projects/ionic-million-words/</link>
+      <pubDate>Wed, 03 Aug 2016 12:53:25 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/ionic-million-words/</guid>
+      <description>
+
+&lt;p&gt;I was looking forward to learn more javascript frameworks after getting a glimpse of React-Native and basic understanding of javascript
+this time my focus was to learn a framwork that will help me in learning web-development too, So I came across AngularJs. After learning and understanding basics of AngularJs I was thinking of a cool project that I can do to make my understanding more robust.
+I thought of creating a simple &lt;strong&gt;Social Network&lt;/strong&gt; type application which I could implement in AngularJs.
+I decided to go mobile again and was looking for a framework which was using AngularJs at its core to build a Hybrid Mobile Appilication. After searching a bit I came across Ionic Framework.&lt;/p&gt;
+
+&lt;h3 id=&#34;ionic-framework&#34;&gt;Ionic Framework&lt;/h3&gt;
+
+&lt;p&gt;Ionic is the open source mobile sdk that will allow you to build Progressive Web and Native Apps easily.&lt;/p&gt;
+
+&lt;p&gt;Features Of Ionic Framework -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Integeration with &lt;strong&gt;cordova&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Uses &lt;strong&gt;AngularJs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Provides extensive set of components like list, buttons, label, header, footer, tab-navigation etc.&lt;/li&gt;
+&lt;li&gt;Good Command Line Interface for debugging and building application(I used iOS and android)&lt;/li&gt;
+&lt;li&gt;Supports SaSS and Less for themeing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;the-app-million-words&#34;&gt;The App - Million Words.&lt;/h2&gt;
+
+&lt;p&gt;I like the concept of &lt;strong&gt;Sex of Ideas&lt;/strong&gt; &lt;a href=&#34;http://www.ted.com/talks/matt_ridley_when_ideas_have_sex&#34;&gt;here&amp;rsquo;s the ted talk &lt;/a&gt;where in you take mate two ideas and derive a new idea out of it.
+So here the &lt;strong&gt;Million Words&lt;/strong&gt; app was the child of &lt;strong&gt;Quora&lt;/strong&gt;(where you ask questions) and &lt;strong&gt;Instagram&lt;/strong&gt;(where you post pictures with some description).
+Yes, you guessed it right in Million Words you can ask questions that can be only answered using pictures and short description.
+And the name million words because &lt;strong&gt;A picture is worth million words&lt;/strong&gt;
+Following were the features I implemented in the first version of Million words.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Multi User&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;login&lt;/li&gt;
+&lt;li&gt;signup&lt;/li&gt;
+&lt;li&gt;User can add profile pictures and update their info(name, email, short description)&lt;/li&gt;
+&lt;li&gt;Other users can view profiles(Info, question, answers) of the users.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ask Question&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A user can ask question.&lt;/li&gt;
+&lt;li&gt;Upvote and downvote a question.&lt;/li&gt;
+&lt;li&gt;Separate Screen for unanswered questions.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Answer to a Question&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User can answer the question by uploading a picture(from gallery or camera) along with short description.&lt;/li&gt;
+&lt;li&gt;User can comment on any answer&lt;/li&gt;
+&lt;li&gt;User can like the answer.&lt;/li&gt;
+&lt;li&gt;User can view other user&amp;rsquo;s answer&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;libraries-and-technologies-used&#34;&gt;Libraries and Technologies Used -&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Ionic Framework v1&lt;/strong&gt; - To build the app.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cordova Library&lt;/strong&gt; - Bridge between the native and Web comes with basic native functionality like logging, toast etc. I added Dialog and Camera plugin too.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grunt&lt;/strong&gt; - To build and run tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NPM&lt;/strong&gt; - To add and update ionic and cordova plugins.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bower&lt;/strong&gt; - To add libraries for the app like moments, firebase etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firebase&lt;/strong&gt; - Google&amp;rsquo;s Awesome Realtime database which was backend of my application. I used Authentication and Database of the Firebase more about firebase here &amp;ndash; &amp;ndash;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt; - I learned git a lot in this project becuase I made myself use branching for a feature. So it was fun.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geny Motion&lt;/strong&gt; - Best Android Emulator I came across. I am mentioning this because it was a big relief for me when I came across Geny Motion, it&amp;rsquo;s fast and simple to use.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are many other things I need to implement in this app, I will make it more polished in the future if anyone likes the idea and is willing to contribute please let me know.
+I haven&amp;rsquo;t made it open source yet.&lt;/p&gt;
+
+&lt;p&gt;Here are some glimpse of the app -&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>React Native App To Manage Expense</title>
+      <link>https://jitenagarwal19.github.io/projects/react-native-money-management/</link>
+      <pubDate>Mon, 30 May 2016 09:30:34 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/react-native-money-management/</guid>
+      <description>
+
+&lt;h2 id=&#34;framework-react-native&#34;&gt;&lt;strong&gt;Framework React-Native&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I created this app when I started learning Javascript and explored different frameworks in Javascript, then I bumped into react-native and was really amazed
+by facebook&amp;rsquo;s approach of creating HYBRID Mobile App. React-Native is build around the philosophy that &lt;strong&gt;learn once and write everywhere&lt;/strong&gt; over &lt;strong&gt;write once and run everywhere&lt;/strong&gt;(philosophy of phonegap).&lt;/p&gt;
+
+&lt;p&gt;You might have to write more uncommon code for Android and iOS in React-Native but you will be writing in same language(i.e. JS) and everything will be rendered natively when you will run the app.
+I was at that time working on an Android Application and thought of writing a simple app on this platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Some useful resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can also get started on react-native by following &lt;a href=&#34;https://facebook.github.io/react-native/docs/getting-started.html&#34;&gt;this&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Amazing list of react-native plugins &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;For layouts react-native heavily uses flexbox, handy reference &lt;a href=&#34;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;app-money-management&#34;&gt;&lt;strong&gt;App&lt;/strong&gt; Money Management&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/jitenagarwal19/money_new1&#34;&gt;&lt;strong&gt;Github Link&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;So the reasons why I built this app are&lt;/strong&gt; -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I wanted to learn react-native&lt;/li&gt;
+&lt;li&gt;I wanted to build a simple app to track my expenses.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I felt the need to create my own expense management app because all the expense management apps out there are complex and do many things, which i didnt want.
+So I figured out building a very simple app that will do the job.
+So my basic requirements were very simple -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Should have some fields to enter my expenses - (Name of expense, expense, and some description)&lt;/li&gt;
+&lt;li&gt;Should have categories to store my expenses(Food, Travel, Shopping, Home and Other)&lt;/li&gt;
+&lt;li&gt;Way to view the expenses on the basis of categories and time(monthly or yearly)&lt;/li&gt;
+&lt;li&gt;Store the expenses locally.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Further Improvements that I will implement in the future&lt;/strong&gt; -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Adding OCR to scan bill images directly in the app.&lt;/li&gt;
+&lt;li&gt;Storing data in the cloud (like firebase)&lt;/li&gt;
+&lt;li&gt;Implementing User login and rollout public version of the app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;so-i-came-up-the-following-ui-which-i-find-very-useful-and-easy-to-use&#34;&gt;So I came up the following UI which I find very useful and easy to use -&lt;/h3&gt;
+
+&lt;p&gt;I am using &lt;a href=&#34;https://material.google.com/style/color.html#&#34;&gt;Google&amp;rsquo;s Material Design Color Palette&lt;/a&gt;, in case you are curious how I came up with these colors
+&lt;strong&gt;Home View with Transactions View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/home1.png&#34; alt=&#34;Home View 1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Home View with Category View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/home2.png&#34; alt=&#34;Home View 2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Yearly View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/yearly.png&#34; alt=&#34;Yearly View&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;thanks-for-reading-please-feel-free-to-fork-this-project-or-to-provide-any-feedbacks&#34;&gt;Thanks for reading please feel free to fork this project or to provide any feedbacks.&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Persist Data</title>
+      <link>https://jitenagarwal19.github.io/projects/persist-data/</link>
+      <pubDate>Sun, 17 Apr 2016 12:09:43 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/persist-data/</guid>
+      <description>
+
+&lt;p&gt;I wanted to create a simple expense management application for myself in react-native(  &lt;a href=&#34;http://www.jitenagarwal.com/projects/react-native-money-management/&#34;&gt;&lt;strong&gt;Expense Management App&lt;/strong&gt;&lt;/a&gt; ). For this app I needed a functionality where I could use localstorage and store the entries in the key/value form.
+Then I came across &lt;a href=&#34;https://facebook.github.io/react-native/docs/asyncstorage.html&#34;&gt;this&lt;/a&gt; feature in react-native and build this simple app. Which includes two fields key and value and list to show the stored values.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/1337Pa1QJ1CIve.gif&#34; alt=&#34;Persist Data&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;here-https-github-com-jitenagarwal19-persistdata-is-the-github-link&#34;&gt;&lt;a href=&#34;https://github.com/jitenagarwal19/PersistData&#34;&gt;Here&lt;/a&gt; is the github link&lt;/h3&gt;
+
+&lt;h3 id=&#34;here-https-youtu-be-kr8230voewm-is-the-short-youtube-video-demoing-the-app&#34;&gt;&lt;a href=&#34;https://youtu.be/Kr8230voEWM&#34;&gt;Here&lt;/a&gt; is the short youtube video demoing the app.&lt;/h3&gt;
+
+&lt;h3 id=&#34;thanks-for-reading-please-feel-free-to-fork-this-project-or-to-provide-any-feedbacks&#34;&gt;Thanks for reading please feel free to fork this project or to provide any feedbacks.&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rect Native App - Weather</title>
+      <link>https://jitenagarwal19.github.io/projects/weather-app/</link>
+      <pubDate>Sun, 03 Apr 2016 11:43:58 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/weather-app/</guid>
+      <description>
+
+&lt;p&gt;This is very basic app that I implemented when I was learning react-native.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/Q93Z84MUc7NUA.gif&#34; alt=&#34;GIF&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can move the pin anywhere in the map to get the weather data of that region. Coordinates of the pin will used to fetch the weather data using this &lt;a href=&#34;https://openweathermap.org/api&#34;&gt;&lt;strong&gt;open weahter api&lt;/strong&gt;&lt;/a&gt;.
+Things I learn while implementing this project -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Map React-Native bridge(Only available for iOS at that time)&lt;/li&gt;
+&lt;li&gt;Promises in Javascript&lt;/li&gt;
+&lt;li&gt;Improved understanding of states in React Native&lt;/li&gt;
+&lt;li&gt;Creating Custom Component in React-Native&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;here-https-github-com-jitenagarwal19-weather-app-is-the-github-link&#34;&gt;&lt;a href=&#34;https://github.com/jitenagarwal19/Weather-app&#34;&gt;Here&lt;/a&gt; is the github link&lt;/h3&gt;
+
+&lt;h3 id=&#34;here-https-www-youtube-com-watch-v-scvs7a2ymkk-is-the-short-youtube-video-demoing-the-app&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=scVS7A2Ymkk&#34;&gt;Here&lt;/a&gt; is the short youtube video demoing the app.&lt;/h3&gt;
+
+&lt;h3 id=&#34;thanks-for-reading-please-feel-free-to-fork-this-project-or-to-provide-any-feedbacks&#34;&gt;Thanks for reading please feel free to fork this project or to provide any feedbacks.&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

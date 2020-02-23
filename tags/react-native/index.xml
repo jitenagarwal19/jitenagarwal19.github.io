@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiten Agarwal</title>
+    <link>https://jitenagarwal19.github.io/tags/react-native/index.xml</link>
+    <description>Recent content on Jiten Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="https://jitenagarwal19.github.io/tags/react-native/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>React Native App To Manage Expense</title>
+      <link>https://jitenagarwal19.github.io/projects/react-native-money-management/</link>
+      <pubDate>Mon, 30 May 2016 09:30:34 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/react-native-money-management/</guid>
+      <description>
+
+&lt;h2 id=&#34;framework-react-native&#34;&gt;&lt;strong&gt;Framework React-Native&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I created this app when I started learning Javascript and explored different frameworks in Javascript, then I bumped into react-native and was really amazed
+by facebook&amp;rsquo;s approach of creating HYBRID Mobile App. React-Native is build around the philosophy that &lt;strong&gt;learn once and write everywhere&lt;/strong&gt; over &lt;strong&gt;write once and run everywhere&lt;/strong&gt;(philosophy of phonegap).&lt;/p&gt;
+
+&lt;p&gt;You might have to write more uncommon code for Android and iOS in React-Native but you will be writing in same language(i.e. JS) and everything will be rendered natively when you will run the app.
+I was at that time working on an Android Application and thought of writing a simple app on this platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Some useful resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can also get started on react-native by following &lt;a href=&#34;https://facebook.github.io/react-native/docs/getting-started.html&#34;&gt;this&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Amazing list of react-native plugins &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;For layouts react-native heavily uses flexbox, handy reference &lt;a href=&#34;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;app-money-management&#34;&gt;&lt;strong&gt;App&lt;/strong&gt; Money Management&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/jitenagarwal19/money_new1&#34;&gt;&lt;strong&gt;Github Link&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;So the reasons why I built this app are&lt;/strong&gt; -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I wanted to learn react-native&lt;/li&gt;
+&lt;li&gt;I wanted to build a simple app to track my expenses.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I felt the need to create my own expense management app because all the expense management apps out there are complex and do many things, which i didnt want.
+So I figured out building a very simple app that will do the job.
+So my basic requirements were very simple -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Should have some fields to enter my expenses - (Name of expense, expense, and some description)&lt;/li&gt;
+&lt;li&gt;Should have categories to store my expenses(Food, Travel, Shopping, Home and Other)&lt;/li&gt;
+&lt;li&gt;Way to view the expenses on the basis of categories and time(monthly or yearly)&lt;/li&gt;
+&lt;li&gt;Store the expenses locally.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Further Improvements that I will implement in the future&lt;/strong&gt; -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Adding OCR to scan bill images directly in the app.&lt;/li&gt;
+&lt;li&gt;Storing data in the cloud (like firebase)&lt;/li&gt;
+&lt;li&gt;Implementing User login and rollout public version of the app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;so-i-came-up-the-following-ui-which-i-find-very-useful-and-easy-to-use&#34;&gt;So I came up the following UI which I find very useful and easy to use -&lt;/h3&gt;
+
+&lt;p&gt;I am using &lt;a href=&#34;https://material.google.com/style/color.html#&#34;&gt;Google&amp;rsquo;s Material Design Color Palette&lt;/a&gt;, in case you are curious how I came up with these colors
+&lt;strong&gt;Home View with Transactions View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/home1.png&#34; alt=&#34;Home View 1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Home View with Category View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/home2.png&#34; alt=&#34;Home View 2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Yearly View&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jitenagarwal19.github.io/img/money/yearly.png&#34; alt=&#34;Yearly View&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;thanks-for-reading-please-feel-free-to-fork-this-project-or-to-provide-any-feedbacks&#34;&gt;Thanks for reading please feel free to fork this project or to provide any feedbacks.&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Persist Data</title>
+      <link>https://jitenagarwal19.github.io/projects/persist-data/</link>
+      <pubDate>Sun, 17 Apr 2016 12:09:43 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/persist-data/</guid>
+      <description>
+
+&lt;p&gt;I wanted to create a simple expense management application for myself in react-native(  &lt;a href=&#34;http://www.jitenagarwal.com/projects/react-native-money-management/&#34;&gt;&lt;strong&gt;Expense Management App&lt;/strong&gt;&lt;/a&gt; ). For this app I needed a functionality where I could use localstorage and store the entries in the key/value form.
+Then I came across &lt;a href=&#34;https://facebook.github.io/react-native/docs/asyncstorage.html&#34;&gt;this&lt;/a&gt; feature in react-native and build this simple app. Which includes two fields key and value and list to show the stored values.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/1337Pa1QJ1CIve.gif&#34; alt=&#34;Persist Data&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;here-https-github-com-jitenagarwal19-persistdata-is-the-github-link&#34;&gt;&lt;a href=&#34;https://github.com/jitenagarwal19/PersistData&#34;&gt;Here&lt;/a&gt; is the github link&lt;/h3&gt;
+
+&lt;h3 id=&#34;here-https-youtu-be-kr8230voewm-is-the-short-youtube-video-demoing-the-app&#34;&gt;&lt;a href=&#34;https://youtu.be/Kr8230voEWM&#34;&gt;Here&lt;/a&gt; is the short youtube video demoing the app.&lt;/h3&gt;
+
+&lt;h3 id=&#34;thanks-for-reading-please-feel-free-to-fork-this-project-or-to-provide-any-feedbacks&#34;&gt;Thanks for reading please feel free to fork this project or to provide any feedbacks.&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rect Native App - Weather</title>
+      <link>https://jitenagarwal19.github.io/projects/weather-app/</link>
+      <pubDate>Sun, 03 Apr 2016 11:43:58 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/weather-app/</guid>
+      <description>
+
+&lt;p&gt;This is very basic app that I implemented when I was learning react-native.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/Q93Z84MUc7NUA.gif&#34; alt=&#34;GIF&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can move the pin anywhere in the map to get the weather data of that region. Coordinates of the pin will used to fetch the weather data using this &lt;a href=&#34;https://openweathermap.org/api&#34;&gt;&lt;strong&gt;open weahter api&lt;/strong&gt;&lt;/a&gt;.
+Things I learn while implementing this project -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Map React-Native bridge(Only available for iOS at that time)&lt;/li&gt;
+&lt;li&gt;Promises in Javascript&lt;/li&gt;
+&lt;li&gt;Improved understanding of states in React Native&lt;/li&gt;
+&lt;li&gt;Creating Custom Component in React-Native&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;here-https-github-com-jitenagarwal19-weather-app-is-the-github-link&#34;&gt;&lt;a href=&#34;https://github.com/jitenagarwal19/Weather-app&#34;&gt;Here&lt;/a&gt; is the github link&lt;/h3&gt;
+
+&lt;h3 id=&#34;here-https-www-youtube-com-watch-v-scvs7a2ymkk-is-the-short-youtube-video-demoing-the-app&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=scVS7A2Ymkk&#34;&gt;Here&lt;/a&gt; is the short youtube video demoing the app.&lt;/h3&gt;
+
+&lt;h3 id=&#34;thanks-for-reading-please-feel-free-to-fork-this-project-or-to-provide-any-feedbacks&#34;&gt;Thanks for reading please feel free to fork this project or to provide any feedbacks.&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

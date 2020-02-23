@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs-rsses on Jiten Agarwal</title>
+    <link>https://jitenagarwal19.github.io/blogs/index.xml</link>
+    <description>Recent content in Blogs-rsses on Jiten Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 22 Jan 2017 13:08:24 +0530</lastBuildDate>
+    <atom:link href="https://jitenagarwal19.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Journey with Javascript so far</title>
+      <link>https://jitenagarwal19.github.io/blogs/my_journey_with_js/</link>
+      <pubDate>Sun, 22 Jan 2017 13:08:24 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/blogs/my_journey_with_js/</guid>
+      <description>
+
+&lt;h2 id=&#34;start&#34;&gt;Start&lt;/h2&gt;
+
+&lt;p&gt;I started learning javascript as a part of my &lt;strong&gt;2016 new year&amp;rsquo;s resolution&lt;/strong&gt; and that was one of the best decision I made in 2016. Since then I cannot stop thinking about Javascript. I am doing JS in office and home. I am overwhelmed by how a language built in 2 weeks took such an important place in the programming world.&lt;/p&gt;
+
+&lt;p&gt;Before embarking on learning something new(framework or language), I always like to read history about it, and know what was the reason it came into existence, what problem did it solved and read about people who built them.
+While exploring history and background of javascript I came across this video of &lt;a href=&#34;https://www.youtube.com/watch?v=v2ifWcnQs6M&#34;&gt;Douglas Crockford&lt;/a&gt;, in this video he talks about good and bad part of javascript. Something about his passion towards Javascript intrigued me and motivated me to learn about this language.&lt;/p&gt;
+
+&lt;p&gt;Since Javascript has a syntax similar to C++/Java, got comfortable with it easily. It is full of gotchas someone learning it will have a hard time with them, but eventually, you get used to them.
+I usually referred &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;MDN reference&lt;/a&gt; and &lt;a href=&#34;http://www.w3schools.com/js/&#34;&gt;W3C School&lt;/a&gt; for basic syntax and concepts in JS.&lt;/p&gt;
+
+&lt;p&gt;Finally, after getting good enough understanding of the core language I thought of making a cool app. The process of making a complete project with the language you are new to is a completely different experience. You learn new things like paradigms,
+new libraries folks are using and various better ways to do a task.&lt;/p&gt;
+
+&lt;p&gt;Since Web Developers love JS they have built several frameworks using JS and tried to make &lt;a href=&#34;https://www.reddit.com/r/atwoodslaw/&#34;&gt;Atwood&amp;rsquo;s Law true&lt;/a&gt;. At that time I was working as a Mobile Developer and was looking for a way to create Hybrid Apps.&lt;/p&gt;
+
+&lt;h3 id=&#34;react-native&#34;&gt;React Native&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;Facebook&amp;rsquo;s React-Native&lt;/a&gt; which lets you create a Mobile application using Javascript completely blew my mind. This framework requires you to write JS and JSX code and then it draws native components on the screen using the bridge in between. You can create your own modules,
+use the one that comes with the framework or you can use the module created by the &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;Awesome Opensource community&lt;/a&gt;. If you are interested in learning in React-Native or are already learning it do checkout this &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;list of awesome libraries&lt;/a&gt; and resources for it.
+I also got my hands dirty with React-Native and built few apps using it -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/weather-app/&#34;&gt;Weather Apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/persist-data/&#34;&gt;LocalStorage App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/react-native-money-management/&#34;&gt;Money Mangement App(which I am really proud of :))&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;ionic-and-angular&#34;&gt;Ionic and Angular&lt;/h3&gt;
+
+&lt;p&gt;If you are learning or working with JS, chances are that you must have come across the term &lt;strong&gt;MEAN stack&lt;/strong&gt; which expands to (&lt;strong&gt;M&lt;/strong&gt;ongoDb, &lt;strong&gt;E&lt;/strong&gt;xpressJS, &lt;strong&gt;A&lt;/strong&gt;ngularJS, &lt;strong&gt;N&lt;/strong&gt;odeJS) which is a full stack implemented in Javascript Express and Node for backend and Angular for front-end.
+I wanted to get into web-development and &lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJs&lt;/a&gt; felt the right choice to start with. Since it is backed by google, it is very easy to use. AngularJS has some learning curve but it is totally worth it, once you connect all the dots everything just fits in the place and things come naturally to you thereafter. Still, my heart was in Mobile Development(damn those tiny devices!) and my eyes laid on Ionic. &lt;a href=&#34;https://ionicframework.com/&#34;&gt;&lt;strong&gt;Ionic&lt;/strong&gt;&lt;/a&gt; is another good framework that lets you create Hybrid Applications using AngularJs.&lt;/p&gt;
+
+&lt;p&gt;My learning is incomplete unless I implement an Idea with that learning, Angular and Ionic were no exceptions. I created a Social Networking app backed by &lt;a href=&#34;https://firebase.google.com/&#34;&gt;&lt;strong&gt;Google&amp;rsquo;s Awesome Firebase database&lt;/strong&gt;&lt;/a&gt;. You can read about that app &lt;a href=&#34;http://www.jitenagarwal.com/projects/ionic-million-words/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-next&#34;&gt;What Next&lt;/h3&gt;
+
+&lt;p&gt;My knowledge and experience in JS feels like tip of the Iceberg when I look in the community what great things people are doing with JS. I want to invest myself for at least another year. My plans for this year are following -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Learn And Create Progressive Web Apps(involves Service Worker)&lt;/li&gt;
+&lt;li&gt;Contribute to the Opensource community&lt;/li&gt;
+&lt;li&gt;AngularJS 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;parting-words&#34;&gt;Parting Words&lt;/h3&gt;
+
+&lt;p&gt;Javascript, I think still has a great future ahead, I still don&amp;rsquo;t think there is any versatile language as Javascript to replace it, so it is here to stay for at least 2-3 years.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to ping me if you have any OpenSource project where I can be of any help.&lt;/p&gt;
+
+&lt;p&gt;Also, Checkout JS if you haven&amp;rsquo;t done yet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>https://jitenagarwal19.github.io/blogs/termial/</link>
+      <pubDate>Sun, 04 Dec 2016 10:41:27 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/blogs/termial/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Disclaimer-This post is not for windows user&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;unlocking-potential-of-terminal-one-command-at-a-time&#34;&gt;Unlocking Potential of Terminal One Command at a Time.&lt;/h1&gt;
+
+&lt;p&gt;I am not a pro user of terminal, but recently I started working on technologies which forced me to use &lt;strong&gt;CLI(Command Line Interface)&lt;/strong&gt;
+for tasks like building source, running server, deploying the code etc.
+Generally when you use GUI while you figure out a workflow which is most optimized for you this might include
+knowing all the keyboard shortcuts, optimizing the Editor&amp;rsquo;s layout according to you, creating shortcuts on your Desktop and many more which I cannot think of right now.
+But when you are working on terminal your choices are limited by how you use commands provided and remembering them is a daunting task.
+As a programmer I feel the power of making my computer work the way I want, so I had to figure out a way to make Terminal work for me to make my workflow optimized.&lt;/p&gt;
+
+&lt;h2 id=&#34;aliasing&#34;&gt;Aliasing&lt;/h2&gt;
+
+&lt;p&gt;Word &lt;strong&gt;Alias&lt;/strong&gt; has many meanings if you will google it but the one that suits here is &lt;em&gt;an alternate name for someone or something&lt;/em&gt;.
+In terminal also we can pretty much alias anything we want, meaning we can rename any complicated command in our own way.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How this is helpful?-You may ask&lt;/strong&gt;
+Let me show you how  -&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s say everytime I want to work on my personal website I have to write following commands in the terminal -&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$cd ~/Documents/myProjects/myWebsite&lt;/code&gt; to change my working directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$code .&lt;/code&gt; - To open &lt;strong&gt;VS Code&lt;/strong&gt; (Editor)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$hugo serve&lt;/code&gt; - To start my local server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;After Aliasing&lt;/strong&gt;
+I just write &lt;code&gt;$mySite_run&lt;/code&gt;. This single commands executes all three commands.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enough jibber-jabber show me how to do it&lt;/strong&gt;
+Look for ~/.bash_profile, ~/.bash_login or  ~/.profile which are files which are executed whenever you open the terminal, we will add our alias command
+here so that we can use them whenever terminal starts.
+If you weren&amp;rsquo;t able to find any of the aboove mentioned files type &lt;code&gt;touch ~/.bash_profile&lt;/code&gt; to create new file.
+Once the file is created you can open it any editor of your choice and start editing it.
+For the example that I gave above alias command will look like this&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;alias mySite_run=&#39;cd ~/Documents/mySite/; code .;hugo server&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;;&lt;/code&gt; in command helps to execute more than one commands in one go.&lt;/p&gt;
+
+&lt;p&gt;Other alias that I use are following -
+- &lt;code&gt;alias poweroff=&#39;sudo /sbin/shutdown -h now&#39;&lt;/code&gt; - for force mac shutdown
+- &lt;code&gt;alias mysql=&#39;/usr/local/mysql-5.5.25-osx10.6-x86_64/bin/mysql -u root&#39;&lt;/code&gt; - to start mysql installation&lt;/p&gt;
+
+&lt;p&gt;You can add as many aliases you want and optimize your daily workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;One quick pro tip&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are like me and keep forgetting stuff I like to print my alias whenever I open my terminal using &lt;code&gt;echo&lt;/code&gt;
+so lets I write&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;echo -e &#39;Use\nmySite_run-to edit website\namazon_project-to edit amazon_project&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;which will give me output like this whenever I open the terminal which helps me keep track of my aliases
+&lt;img src=&#34;https://jitenagarwal19.github.io/img/terminal/terminal_screenshot.png&#34; alt=&#34;Terminal Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Go Ahead Geek Out&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Let me know if you have more cool terminal tricks&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

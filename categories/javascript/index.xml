@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiten Agarwal</title>
+    <link>https://jitenagarwal19.github.io/categories/javascript/index.xml</link>
+    <description>Recent content on Jiten Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="https://jitenagarwal19.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Journey with Javascript so far</title>
+      <link>https://jitenagarwal19.github.io/blogs/my_journey_with_js/</link>
+      <pubDate>Sun, 22 Jan 2017 13:08:24 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/blogs/my_journey_with_js/</guid>
+      <description>
+
+&lt;h2 id=&#34;start&#34;&gt;Start&lt;/h2&gt;
+
+&lt;p&gt;I started learning javascript as a part of my &lt;strong&gt;2016 new year&amp;rsquo;s resolution&lt;/strong&gt; and that was one of the best decision I made in 2016. Since then I cannot stop thinking about Javascript. I am doing JS in office and home. I am overwhelmed by how a language built in 2 weeks took such an important place in the programming world.&lt;/p&gt;
+
+&lt;p&gt;Before embarking on learning something new(framework or language), I always like to read history about it, and know what was the reason it came into existence, what problem did it solved and read about people who built them.
+While exploring history and background of javascript I came across this video of &lt;a href=&#34;https://www.youtube.com/watch?v=v2ifWcnQs6M&#34;&gt;Douglas Crockford&lt;/a&gt;, in this video he talks about good and bad part of javascript. Something about his passion towards Javascript intrigued me and motivated me to learn about this language.&lt;/p&gt;
+
+&lt;p&gt;Since Javascript has a syntax similar to C++/Java, got comfortable with it easily. It is full of gotchas someone learning it will have a hard time with them, but eventually, you get used to them.
+I usually referred &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript&#34;&gt;MDN reference&lt;/a&gt; and &lt;a href=&#34;http://www.w3schools.com/js/&#34;&gt;W3C School&lt;/a&gt; for basic syntax and concepts in JS.&lt;/p&gt;
+
+&lt;p&gt;Finally, after getting good enough understanding of the core language I thought of making a cool app. The process of making a complete project with the language you are new to is a completely different experience. You learn new things like paradigms,
+new libraries folks are using and various better ways to do a task.&lt;/p&gt;
+
+&lt;p&gt;Since Web Developers love JS they have built several frameworks using JS and tried to make &lt;a href=&#34;https://www.reddit.com/r/atwoodslaw/&#34;&gt;Atwood&amp;rsquo;s Law true&lt;/a&gt;. At that time I was working as a Mobile Developer and was looking for a way to create Hybrid Apps.&lt;/p&gt;
+
+&lt;h3 id=&#34;react-native&#34;&gt;React Native&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;Facebook&amp;rsquo;s React-Native&lt;/a&gt; which lets you create a Mobile application using Javascript completely blew my mind. This framework requires you to write JS and JSX code and then it draws native components on the screen using the bridge in between. You can create your own modules,
+use the one that comes with the framework or you can use the module created by the &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;Awesome Opensource community&lt;/a&gt;. If you are interested in learning in React-Native or are already learning it do checkout this &lt;a href=&#34;https://github.com/facebook/react/wiki/Complementary-Tools&#34;&gt;list of awesome libraries&lt;/a&gt; and resources for it.
+I also got my hands dirty with React-Native and built few apps using it -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/weather-app/&#34;&gt;Weather Apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/persist-data/&#34;&gt;LocalStorage App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.jitenagarwal.com/projects/react-native-money-management/&#34;&gt;Money Mangement App(which I am really proud of :))&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;ionic-and-angular&#34;&gt;Ionic and Angular&lt;/h3&gt;
+
+&lt;p&gt;If you are learning or working with JS, chances are that you must have come across the term &lt;strong&gt;MEAN stack&lt;/strong&gt; which expands to (&lt;strong&gt;M&lt;/strong&gt;ongoDb, &lt;strong&gt;E&lt;/strong&gt;xpressJS, &lt;strong&gt;A&lt;/strong&gt;ngularJS, &lt;strong&gt;N&lt;/strong&gt;odeJS) which is a full stack implemented in Javascript Express and Node for backend and Angular for front-end.
+I wanted to get into web-development and &lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJs&lt;/a&gt; felt the right choice to start with. Since it is backed by google, it is very easy to use. AngularJS has some learning curve but it is totally worth it, once you connect all the dots everything just fits in the place and things come naturally to you thereafter. Still, my heart was in Mobile Development(damn those tiny devices!) and my eyes laid on Ionic. &lt;a href=&#34;https://ionicframework.com/&#34;&gt;&lt;strong&gt;Ionic&lt;/strong&gt;&lt;/a&gt; is another good framework that lets you create Hybrid Applications using AngularJs.&lt;/p&gt;
+
+&lt;p&gt;My learning is incomplete unless I implement an Idea with that learning, Angular and Ionic were no exceptions. I created a Social Networking app backed by &lt;a href=&#34;https://firebase.google.com/&#34;&gt;&lt;strong&gt;Google&amp;rsquo;s Awesome Firebase database&lt;/strong&gt;&lt;/a&gt;. You can read about that app &lt;a href=&#34;http://www.jitenagarwal.com/projects/ionic-million-words/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-next&#34;&gt;What Next&lt;/h3&gt;
+
+&lt;p&gt;My knowledge and experience in JS feels like tip of the Iceberg when I look in the community what great things people are doing with JS. I want to invest myself for at least another year. My plans for this year are following -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Learn And Create Progressive Web Apps(involves Service Worker)&lt;/li&gt;
+&lt;li&gt;Contribute to the Opensource community&lt;/li&gt;
+&lt;li&gt;AngularJS 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;parting-words&#34;&gt;Parting Words&lt;/h3&gt;
+
+&lt;p&gt;Javascript, I think still has a great future ahead, I still don&amp;rsquo;t think there is any versatile language as Javascript to replace it, so it is here to stay for at least 2-3 years.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to ping me if you have any OpenSource project where I can be of any help.&lt;/p&gt;
+
+&lt;p&gt;Also, Checkout JS if you haven&amp;rsquo;t done yet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Million Words Social Network built using Ionic Framework</title>
+      <link>https://jitenagarwal19.github.io/projects/ionic-million-words/</link>
+      <pubDate>Wed, 03 Aug 2016 12:53:25 +0530</pubDate>
+      
+      <guid>https://jitenagarwal19.github.io/projects/ionic-million-words/</guid>
+      <description>
+
+&lt;p&gt;I was looking forward to learn more javascript frameworks after getting a glimpse of React-Native and basic understanding of javascript
+this time my focus was to learn a framwork that will help me in learning web-development too, So I came across AngularJs. After learning and understanding basics of AngularJs I was thinking of a cool project that I can do to make my understanding more robust.
+I thought of creating a simple &lt;strong&gt;Social Network&lt;/strong&gt; type application which I could implement in AngularJs.
+I decided to go mobile again and was looking for a framework which was using AngularJs at its core to build a Hybrid Mobile Appilication. After searching a bit I came across Ionic Framework.&lt;/p&gt;
+
+&lt;h3 id=&#34;ionic-framework&#34;&gt;Ionic Framework&lt;/h3&gt;
+
+&lt;p&gt;Ionic is the open source mobile sdk that will allow you to build Progressive Web and Native Apps easily.&lt;/p&gt;
+
+&lt;p&gt;Features Of Ionic Framework -&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Integeration with &lt;strong&gt;cordova&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Uses &lt;strong&gt;AngularJs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Provides extensive set of components like list, buttons, label, header, footer, tab-navigation etc.&lt;/li&gt;
+&lt;li&gt;Good Command Line Interface for debugging and building application(I used iOS and android)&lt;/li&gt;
+&lt;li&gt;Supports SaSS and Less for themeing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;the-app-million-words&#34;&gt;The App - Million Words.&lt;/h2&gt;
+
+&lt;p&gt;I like the concept of &lt;strong&gt;Sex of Ideas&lt;/strong&gt; &lt;a href=&#34;http://www.ted.com/talks/matt_ridley_when_ideas_have_sex&#34;&gt;here&amp;rsquo;s the ted talk &lt;/a&gt;where in you take mate two ideas and derive a new idea out of it.
+So here the &lt;strong&gt;Million Words&lt;/strong&gt; app was the child of &lt;strong&gt;Quora&lt;/strong&gt;(where you ask questions) and &lt;strong&gt;Instagram&lt;/strong&gt;(where you post pictures with some description).
+Yes, you guessed it right in Million Words you can ask questions that can be only answered using pictures and short description.
+And the name million words because &lt;strong&gt;A picture is worth million words&lt;/strong&gt;
+Following were the features I implemented in the first version of Million words.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Multi User&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;login&lt;/li&gt;
+&lt;li&gt;signup&lt;/li&gt;
+&lt;li&gt;User can add profile pictures and update their info(name, email, short description)&lt;/li&gt;
+&lt;li&gt;Other users can view profiles(Info, question, answers) of the users.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ask Question&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A user can ask question.&lt;/li&gt;
+&lt;li&gt;Upvote and downvote a question.&lt;/li&gt;
+&lt;li&gt;Separate Screen for unanswered questions.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Answer to a Question&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User can answer the question by uploading a picture(from gallery or camera) along with short description.&lt;/li&gt;
+&lt;li&gt;User can comment on any answer&lt;/li&gt;
+&lt;li&gt;User can like the answer.&lt;/li&gt;
+&lt;li&gt;User can view other user&amp;rsquo;s answer&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;libraries-and-technologies-used&#34;&gt;Libraries and Technologies Used -&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Ionic Framework v1&lt;/strong&gt; - To build the app.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cordova Library&lt;/strong&gt; - Bridge between the native and Web comes with basic native functionality like logging, toast etc. I added Dialog and Camera plugin too.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grunt&lt;/strong&gt; - To build and run tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NPM&lt;/strong&gt; - To add and update ionic and cordova plugins.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bower&lt;/strong&gt; - To add libraries for the app like moments, firebase etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firebase&lt;/strong&gt; - Google&amp;rsquo;s Awesome Realtime database which was backend of my application. I used Authentication and Database of the Firebase more about firebase here &amp;ndash; &amp;ndash;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt; - I learned git a lot in this project becuase I made myself use branching for a feature. So it was fun.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geny Motion&lt;/strong&gt; - Best Android Emulator I came across. I am mentioning this because it was a big relief for me when I came across Geny Motion, it&amp;rsquo;s fast and simple to use.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are many other things I need to implement in this app, I will make it more polished in the future if anyone likes the idea and is willing to contribute please let me know.
+I haven&amp;rsquo;t made it open source yet.&lt;/p&gt;
+
+&lt;p&gt;Here are some glimpse of the app -&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

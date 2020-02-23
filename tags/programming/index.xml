@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Jiten Agarwal</title>
+    <link>https://jitenagarwal.com/tags/programming/</link>
+    <description>Recent content in Programming on Jiten Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 03 Feb 2020 22:36:27 +0530</lastBuildDate>
+    
+	<atom:link href="https://jitenagarwal.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From Programmer to Businessman</title>
+      <link>https://jitenagarwal.com/blog/programmer-to-businessman/</link>
+      <pubDate>Mon, 03 Feb 2020 22:36:27 +0530</pubDate>
+      
+      <guid>https://jitenagarwal.com/blog/programmer-to-businessman/</guid>
+      <description>This post is the first of many posts to follow describing my journey from a programmer to a businessman. I have been a programmer for 10 years now, and recently I decided to join my family&#39;s business full-time. I saw that transition coming at some point and I always envisioned myself how I will handle this transition. My current role in our business is to make it tech-enabled for smoother and human error-free operations.</description>
+    </item>
+    
+    <item>
+      <title>My Journey With Javascript So Far</title>
+      <link>https://jitenagarwal.com/blog/my-journey-with-javascript-so-far/</link>
+      <pubDate>Tue, 22 Mar 2016 15:50:09 +0530</pubDate>
+      
+      <guid>https://jitenagarwal.com/blog/my-journey-with-javascript-so-far/</guid>
+      <description>I started learning javascript as a part of my 2016 new year’s resolution and that was one of the best decision I made in 2016. Since then I cannot stop thinking about Javascript. I am doing JS in office and home. I am overwhelmed by how a language built in 2 weeks took such an important place in the programming world.
+Before embarking on learning something new(framework or language), I always like to read history about it, and know what was the reason it came into existence, what problem did it solved and read about people who built them.</description>
+    </item>
+    
+  </channel>
+</rss>

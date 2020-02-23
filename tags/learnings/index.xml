@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>learnings on Jiten Agarwal</title>
+    <link>https://jitenagarwal.com/tags/learnings/</link>
+    <description>Recent content in learnings on Jiten Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 03 Feb 2020 22:36:27 +0530</lastBuildDate>
+    
+	<atom:link href="https://jitenagarwal.com/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From Programmer to Businessman</title>
+      <link>https://jitenagarwal.com/blog/programmer-to-businessman/</link>
+      <pubDate>Mon, 03 Feb 2020 22:36:27 +0530</pubDate>
+      
+      <guid>https://jitenagarwal.com/blog/programmer-to-businessman/</guid>
+      <description>This post is the first of many posts to follow describing my journey from a programmer to a businessman. I have been a programmer for 10 years now, and recently I decided to join my family&#39;s business full-time. I saw that transition coming at some point and I always envisioned myself how I will handle this transition. My current role in our business is to make it tech-enabled for smoother and human error-free operations.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Project on Jiten Agarwal</title>
+    <link>https://jitenagarwal.com/tags/personal-project/</link>
+    <description>Recent content in Personal Project on Jiten Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 16 Dec 2017 15:50:09 +0530</lastBuildDate>
+    
+	<atom:link href="https://jitenagarwal.com/tags/personal-project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First UX Design Project  Lakshya</title>
+      <link>https://jitenagarwal.com/blog/first-ux-design-project-lakshya/</link>
+      <pubDate>Sat, 16 Dec 2017 15:50:09 +0530</pubDate>
+      
+      <guid>https://jitenagarwal.com/blog/first-ux-design-project-lakshya/</guid>
+      <description>I was planning to learn UX design for such a long time and finally here is my first UX design project: Lakshya, an app which allows an user to manage their time easily by creating your goals and breaking them down into small tasks. UX design always interested me and being a front-end developer I think UX design skill will definitely come in handy.
+I am really thankful for the Springboard for their wonderful course which has amazing curricullum and a very supportive mentorship programme.</description>
+    </item>
+    
+  </channel>
+</rss>
