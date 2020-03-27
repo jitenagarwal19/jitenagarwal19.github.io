@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Life Learnings on Jiten Agarwal</title>
-    <link>https://jitenagarwal.com/tags/life-learnings/</link>
-    <description>Recent content in Life Learnings on Jiten Agarwal</description>
+    <title>Journalling on Jiten Agarwal</title>
+    <link>https://jitenagarwal.com/tags/journalling/</link>
+    <description>Recent content in Journalling on Jiten Agarwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 25 Mar 2020 14:17:56 +0530</lastBuildDate>
     
-	<atom:link href="https://jitenagarwal.com/tags/life-learnings/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jitenagarwal.com/tags/journalling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>https://jitenagarwal.com/blog/quarantine-updates/</guid>
       <description>The whole world is gripped by the fear of the Corona Virus. This virus is super-contagious and has symptoms ranging from mild-flu to dangerous life-threatening respiratory disease. As of writing this memoir 25th March 2020, no cure and vaccine has been discovered yet. Humanity&amp;rsquo;s best shot to contain the virus is to self-isolate and prevent the spreading of the virus. Many developed countries like Italy, Spain, Germany and even The US of America are shitting their pants to stop the spread of this virus.</description>
-    </item>
-    
-    <item>
-      <title>2019: Year in Review</title>
-      <link>https://jitenagarwal.com/blog/2019-year-review/</link>
-      <pubDate>Thu, 19 Dec 2019 21:52:34 +0530</pubDate>
-      
-      <guid>https://jitenagarwal.com/blog/2019-year-review/</guid>
-      <description>2019 was easily the best year of my life so far. No, I didn’t start a company. No, I didn’t get married. No, I didn’t get a Job in Apple. But I still think 2019 was full of amazing learnings, travel stories, friendships.
-When I was thinking of what format this blog should be in. The first idea that came to my mind was to just write down the most interesting events month-wise, but then I thought that would be too boring.</description>
     </item>
     
   </channel>
