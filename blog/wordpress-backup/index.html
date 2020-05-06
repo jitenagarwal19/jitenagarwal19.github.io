@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jiten Agarwal" />
+    
+    <meta name="description" content="About Jiten Agarwal, meditation, blog, travelling, photography">
+    <link rel="shortcut icon" type="image/x-icon" href="https://jitenagarwal.com/img/favicon.ico">
+    <title>Wordpress Backup - Simple &amp; Cheap, without any plugins</title>
+    <meta name="generator" content="Hugo 0.65.1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://jitenagarwal.com/css/main.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <link rel="stylesheet" href="https://jitenagarwal.com/css/custom.css">
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https:\/\/jitenagarwal.com\/"
+            },
+            "articleSection": "blog",
+            "name": "Wordpress Backup - Simple \x26 Cheap, without any plugins",
+            "headline": "Wordpress Backup - Simple \x26 Cheap, without any plugins",
+            "description": "It has been 3 months since I decided to implement my new eCommerce website on the WooCommerce platform which is a part of the Wordpress ecosystem. The site is live now and you go check it out - justspices.in It took me numerous nights and days to learn WordPress and take the site where it is now. Wordpress is kind of a double-edged sword. While it is easy to quickly deploy the site and integrate all the functionalities by choosing among a slew of plugins provided by the Wordpress community but at the same time, it is not so developer-friendly.",
+            "inLanguage": "en-US",
+            "author": "",
+            "creator": "",
+            "publisher": "",
+            "accountablePerson": "",
+            "copyrightHolder": ""
+        }
+    </script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-46601564-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</head>
+
+  <body>
+    <div id="wrap">
+
+      
+      
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://jitenagarwal.com/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="https://jitenagarwal.com/blog/">BLOG</a></li>
+        
+        <li><a href="https://jitenagarwal.com/tags/meditation/">MEDITATION</a></li>
+        
+        <li><a href="https://jitenagarwal.com/tags/travel-stories/">TRAVEL STORIES</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="https://jitenagarwal.com/blog/wordpress-backup/">Wordpress Backup - Simple &amp; Cheap, without any plugins</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          May 6, 2020
+            &nbsp;&nbsp;
+            
+            <a href="https://jitenagarwal.com/tags/programming"><span class="label label-success">programming</span></a>
+            
+            <a href="https://jitenagarwal.com/tags/quarantine-content"><span class="label label-success">quarantine-content</span></a>
+            
+            <a href="https://jitenagarwal.com/tags/wordpress"><span class="label label-success">wordpress</span></a>
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              <p>It has been 3 months since I decided to implement my new eCommerce website on the WooCommerce platform which is a part of the Wordpress ecosystem. The site is live now and you go check it out - justspices.in
+It took me numerous nights and days to learn WordPress and take the site where it is now. Wordpress is kind of a double-edged sword. While it is easy to quickly deploy the site and integrate all the functionalities by choosing among a slew of plugins provided by the Wordpress community but at the same time, it is not so developer-friendly. There is no streamlined developer-workflow defined unlike other programming platforms and you need to bang your head with already abandoned PHP language to get what you want from the website.</p>
+<p>Getting the rant out of the way, let’s dive straight into the topic of discussion for today’s post on how I automated Wordpress&rsquo;s database and files backup.
+Now, I know what you are thinking. Jiten why would you sweat yourself writing a script when you can easily install a plugin and get it done hassle-free. See, as a programmer, you need control on your software and I already had installed enough plugins on my website which made me lose track of which plugin did what.</p>
+<p>So, here I am writing this post mainly for the following reason -</p>
+<ol>
+<li>Anyone who wants a jumpstart on automating WordPress databases and file backup can refer to this.</li>
+<li>It’s also my way of showing the developer community what I did and asking for feedback.</li>
+<li>And last but not least it is glorified form documentation so that I can always refer back on what I was trying to achieve.</li>
+</ol>
+<h1 id="lets-go--">Let&rsquo;s go -</h1>
+<p>I have hosted my site on amazing AWS&rsquo;s lightsail which has one-click installation for Wordpress sites. You can check out how to set up it <a href="https://aws.amazon.com/lightsail/projects/wordpress/">here</a></p>
+<p>You can essentially track all the changes that you do on your Wordpress site by tracking database changes and file changes. All your plugin-installs, media-uploads, and user-generated changes updates database or WordPress files or both.
+So, if you were to back up your site you would need a recent snapshot of your site&rsquo;s file and database.</p>
+<h3 id="lets-talk-about-database-backup-first--">Let&rsquo;s talk about Database backup first -</h3>
+<p>I have written a shell script that runs periodically via cronjob. If you don&rsquo;t what cronjob is you can refer <a href="https://help.ubuntu.com/community/CronHowto">here</a> and to quickly get the correct format of your desired cadence you can use tools like <a href="crontab.guru">crontab.guru</a></p>
+<p>The shell-script looked like this -</p>
+<pre><code>#!/bin/sh
+NOW=$(date +&quot;%m-%d-%Y&quot;)
+path=~/Documents/backup_testing/db_backups/
+sql_extension=&quot;.sql&quot;
+zip_extension=&quot;.tgz&quot;
+file_name=$NOW$sql_extension
+full_file_path=$path$NOW$sql_extension
+db_name=testDB
+echo &quot;backup script execution initialisation&quot;
+zip_file_name=$NOW$zip_extension
+zip_file_path=$path$NOW$zip_extension
+aws_bucket_name=justspices-backup
+s3_path=s3://$aws_bucket_name
+cd $path
+mysqldump -uroot --databases $db_name &gt; $file_name
+echo &quot;backup mysql file created&quot;
+tar -czf $zip_file_name $file_name
+echo &quot;backup zip file created&quot;
+aws s3 cp $zip_file_name $s3_path
+echo &quot;file sent to aws&quot;
+rm $file_name
+rm $zip_file_name
+echo &quot;files deleted and script execution completed&quot;
+</code></pre><p>So, basically what this does every day is -</p>
+<p>Create a mysqldump to a file named as current-date by this command -</p>
+<pre><code>mysqldump -uroot --databases $db_name &gt; $file_name
+</code></pre><p>Once the file is created push it to AWS S3 bucket using this command -</p>
+<pre><code>cp $zip_file_name $s3_path
+</code></pre><p>Once push is complete remove the files.</p>
+<p>AWS S3 bucket works fine here as they are super-cheap to use and have amazing API for any language and platform.</p>
+<p><strong>Future Improvement</strong> - Cleanup the S3 bucket for older files.</p>
+<h3 id="backing-up-files--">Backing up Files -</h3>
+<p>For backing up my files I simply chose GitHub as my backup repository.
+I am not sure why aren&rsquo;t many people doing this, taking periodical backups in their Github repo by a cronjob.
+Backing up on a repo is free, easy and your changes are stored as a timed-snapshot which can be restored to any point easily.</p>
+<p>Before running any GitHub commands on your instance make sure you have ssh keys of your instance on your GitHub account. You can refer to this document -
+Here is what I did using a cronjob periodically -
+Add all the changes
+Commit with a timestamp
+Push it
+Simple right?</p>
+<pre><code>#!/bin/sh
+cd /home/bitnami/apps/wordpress/htdocs
+current=$(date +&quot;%Y-%m-%d %T&quot;)
+commit_message=&quot;script commit ${current}&quot;
+git add .
+echo &quot;will commit files now&quot;
+git commit -m &quot;${commit_message}&quot;
+git push
+</code></pre><p>So, here is how I am backing up my WordPress site without using any external plugins. My method is also really cheap and cost-effective which gives you complete control over your backups.</p>
+<p>Let me know your thoughts on how I am performing my backup, is there something I could have done better. Let me know in the comments.
+See you next time.</p>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <h6 style="text-align: right">
+                        February 3, 2020
+                      </h6>
+                    </div>
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <h6 style="text-align: left">
+                        <strong><a href="https://jitenagarwal.com/blog/programmer-to-businessman/">From Programmer to Businessman</a></strong>
+                      </h6>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = 'jitenagarwal';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">Jiten Agarwal&copy; All rights reserved.
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+  data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+  window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+    L.start({
+      "baseUrl": "mc.us4.list-manage.com",
+      "uuid": "dd65c968bd72f1f1a33b48b72",
+      "lid": "178be8c684",
+      "uniqueMethods": true
+    })
+  })
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+</script>
+<script src="https://jitenagarwal.com/js/docs.min.js"></script>
+<script src="https://jitenagarwal.com/js/main.js"></script>
+
+<script src="https://jitenagarwal.com/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>

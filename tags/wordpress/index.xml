@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on Jiten Agarwal</title>
+    <link>https://jitenagarwal.com/tags/wordpress/</link>
+    <description>Recent content in wordpress on Jiten Agarwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 06 May 2020 22:10:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://jitenagarwal.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wordpress Backup - Simple &amp; Cheap, without any plugins</title>
+      <link>https://jitenagarwal.com/blog/wordpress-backup/</link>
+      <pubDate>Wed, 06 May 2020 22:10:12 +0530</pubDate>
+      
+      <guid>https://jitenagarwal.com/blog/wordpress-backup/</guid>
+      <description>It has been 3 months since I decided to implement my new eCommerce website on the WooCommerce platform which is a part of the Wordpress ecosystem. The site is live now and you go check it out - justspices.in It took me numerous nights and days to learn WordPress and take the site where it is now. Wordpress is kind of a double-edged sword. While it is easy to quickly deploy the site and integrate all the functionalities by choosing among a slew of plugins provided by the Wordpress community but at the same time, it is not so developer-friendly.</description>
+    </item>
+    
+  </channel>
+</rss>
