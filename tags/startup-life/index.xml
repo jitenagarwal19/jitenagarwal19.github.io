@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Startup on Jiten Agarwal</title>
-    <link>https://jitenagarwal.com/tags/startup/</link>
-    <description>Recent content in Startup on Jiten Agarwal</description>
+    <title>Startup Life on Jiten Agarwal</title>
+    <link>https://jitenagarwal.com/tags/startup-life/</link>
+    <description>Recent content in Startup Life on Jiten Agarwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 07 Jan 2021 21:39:44 +0530</lastBuildDate>
     
-	<atom:link href="https://jitenagarwal.com/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jitenagarwal.com/tags/startup-life/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>https://jitenagarwal.com/blog/tools-for-business/</guid>
       <description>I have been involved in developing a premium spices brand www.justspices.in for over a year now. This is my first stint at developing a business full-time after working as a professional software engineer for 4 years. Developing a business is fun and challenging. You face new challenges every day in execution while making sure you keep growing and find new avenues of revenue (that rhymed!) while keeping your values intact. Since I have been in this thing for a year now, I have developed some workflows that help me handle frequent chores error-free and smoothly.</description>
-    </item>
-    
-    <item>
-      <title>One Year at Springboard and I Couldn&#39;t Have Asked for More</title>
-      <link>https://jitenagarwal.com/blog/one-year-at-springboard-and-i-couldn-t-have-asked-for-more/</link>
-      <pubDate>Sat, 19 May 2018 15:50:09 +0530</pubDate>
-      
-      <guid>https://jitenagarwal.com/blog/one-year-at-springboard-and-i-couldn-t-have-asked-for-more/</guid>
-      <description>Sharing the story of how my life has changed over the last one year
-9th May 2017, I didn’t know that after a year I will be in a position where I would be doing the most satisfying work and becoming the best version of myself. One step at a time!
-Till that time I was working at Citi as a mobile developer and had reached a point where change was imminent as the work had become mundane.</description>
     </item>
     
   </channel>
